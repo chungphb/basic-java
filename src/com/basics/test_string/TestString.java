@@ -1,3 +1,5 @@
+package com.basics.test_string;
+
 import java.nio.charset.Charset; // For Charset
 import java.util.*; // For Objects.equals(String, String)
 
@@ -113,7 +115,7 @@ public class TestString { // Running with -encoding UTF-8 option
                 }
                 { // Using Integer(int).toString()
                     int val = 25101996;
-                    String str = new Integer(val).toString();
+                    String str = Integer.toString(val);
                     System.out.println(str);
                 }
                 { // Using StringBuffer or StringBuilder

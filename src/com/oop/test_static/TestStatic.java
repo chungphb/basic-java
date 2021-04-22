@@ -1,3 +1,5 @@
+package com.oop.test_static;
+
 class Mammal {
     protected String habitat;
 

@@ -1,3 +1,5 @@
+package com.oop.test_abstraction;
+
 enum Color {
     RED, GREEN, BLUE;
 }

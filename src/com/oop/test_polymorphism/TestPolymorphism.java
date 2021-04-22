@@ -1,3 +1,5 @@
+package com.oop.test_polymorphism;
+
 class Person {
     private String name;
     private String id;
@@ -49,7 +51,7 @@ class Student extends Person {
         this.data = super.getName() + " is a student";
     }
 
-    // Overriden methods
+    // Overridden methods
 
     @Override
     public String getID() {

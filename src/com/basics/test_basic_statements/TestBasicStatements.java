@@ -1,3 +1,5 @@
+package com.basics.test_basic_statements;
+
 public class TestBasicStatements {
     public static void main(String[] args) {
         { // Test for

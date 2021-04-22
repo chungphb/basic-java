@@ -1,3 +1,5 @@
+package com.basics.test_enum;
+
 public class TestEnum {
     enum Color {
         RED, GREEN, BLUE;

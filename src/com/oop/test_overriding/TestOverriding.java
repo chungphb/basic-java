@@ -1,3 +1,5 @@
+package com.oop.test_overriding;
+
 class Phone {
     void config() {
         System.out.println("Config phone");
@@ -101,7 +103,7 @@ public class TestOverriding {
         // 3. Static methods can not be overridden
         // 4. Private methods can not be overridden
         // 5. The overriding method must have same return type (or subtype)
-        // 6. Exception handling when overrding 
+        // 6. Exception handling when overriding
         //    a) If the super-class overridden method does not throw an exception, subclass overriding method can only throws the unchecked exception
         //    b) If the super-class overridden method does throw an exception, subclass overriding method can only throw same, subclass exception
     }

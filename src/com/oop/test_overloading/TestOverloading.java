@@ -1,3 +1,5 @@
+package com.oop.test_overloading;
+
 class Counter {
     private long value;
 
@@ -79,8 +81,8 @@ public class TestOverloading {
             TestOverloading.main("Hello world!");
         }
         // Note: 
-        // 1. Java doesn’t allow overloading two methods if they differ only by static keyword
-        // 2. Java doesn’t allow user-defined overloaded operators
+        // 1. Java does not allow overloading two methods if they differ only by static keyword
+        // 2. Java does not allow user-defined overloaded operators
         // 3. Overloading is an example of compiler time polymorphism while overriding is an example of run time polymorphism
     }
 

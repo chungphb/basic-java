@@ -1,3 +1,5 @@
+package com.oop.test_inheritance;
+
 import java.util.Arrays;
 
 enum Gender {MEN, WOMEN, NONBINARY}

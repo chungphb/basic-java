@@ -1,3 +1,5 @@
+package com.oop.test_class;
+
 class Album { // Class default access
     private String title;
     private String artist;
@@ -70,7 +72,7 @@ class Artist implements Cloneable { // Class default access
         this.name = name;
     }
 
-    // Overriden methods
+    // Overridden methods
 
     @Override
     public String toString() {

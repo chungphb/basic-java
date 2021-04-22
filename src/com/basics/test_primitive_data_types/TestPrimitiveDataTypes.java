@@ -1,3 +1,5 @@
+package com.basics.test_primitive_data_types;
+
 public class TestPrimitiveDataTypes {
     public static void main(String[] args) {
         boolean boolVal = true;

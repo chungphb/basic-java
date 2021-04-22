@@ -1,6 +1,8 @@
+package com.basics.test_operators;
+
 public class TestOperators {
     public static void main(String[] args) {
-        { // Test arimethic operators
+        { // Test arithmetic operators
             System.out.println("25 + 10 = " + (25 + 10));
             System.out.println("25 - 10 = " + (25 - 10));
             System.out.println("25 * 10 = " + (25 * 10));
