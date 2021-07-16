@@ -4,6 +4,55 @@ import java.util.*;
 
 public class TestList {
     public static void main(String[] args) {
+        { // Test List<T>
+            startTest("TEST LIST");
+
+            // add()
+            List<Integer> list = new ArrayList<>();
+            list.add(4);
+            list.add(12);
+            list.add(13);
+            list.add(25);
+            list.add(40);
+            System.out.println("List: " + list);
+
+            // get()
+            Integer element = list.get(0);
+            System.out.println("The 1st element: " + element);
+
+            // remove()
+            list.remove(0);
+            System.out.println("List (after removing 1st element): " + list);
+
+            // indexOf()
+            int index = list.indexOf(13);
+            System.out.println("Index of \"13\" element: " + index);
+
+            // set()
+            list.set(index, element);
+            System.out.println("List (after updating \"13\" element): " + list);
+
+            // sublist()
+            List<Integer> subList = list.subList(1, 3);
+            System.out.println("Sublist (from 1 to 3): " + subList);
+
+            // iterator()
+            System.out.println("Elements: ");
+            Iterator<Integer> it = list.iterator();
+            while (it.hasNext()) {
+                element = (Integer) it.next();
+                System.out.println(element);
+            }
+
+            // clear()
+            list.clear();
+            System.out.println("List (after clearing): " + list);
+
+            // isEmpty()
+            System.out.println("Is the list empty: " + list.isEmpty());
+
+            endTest();
+        }
         { // Test AbstractList<T>
             startTest("TEST ABSTRACT LIST");
 
