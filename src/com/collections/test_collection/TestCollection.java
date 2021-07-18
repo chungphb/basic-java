@@ -116,10 +116,10 @@ public class TestCollection {
                 it = numbers.listIterator();
                 int index = it.nextIndex();
                 it.next();
-                System.out.println("Set element at index " + index + " to " + 12);
+                System.out.println("Set element at index " + index + " to \"" + 12 + "\"");
                 it.set(12);
                 System.out.println("Result: " + numbers);
-                System.out.println("Add element 13 to index " + it.nextIndex());
+                System.out.println("Add \"13\" to index " + it.nextIndex());
                 it.add(13);
                 System.out.println("Result: " + numbers);
 
