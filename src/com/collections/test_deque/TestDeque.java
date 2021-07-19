@@ -219,6 +219,14 @@ public class TestDeque {
 
             endTest();
         }
+        // Note:
+        //               ---------------- Collection ----------------
+        //              |                                            |
+        //              |                                            |
+        //            Deque -------------------------------------- Queue
+        //              |                                            |
+        //              |                                            |
+        //               ---------------- ArrayQueue ----------------
     }
 
     public static void startTest(String test) {

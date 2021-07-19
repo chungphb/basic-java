@@ -216,16 +216,13 @@ public class TestSet {
         //      AbstractCollection                                  Set
         //              |                                            |
         //              |                                            |
-        //               ---------------- AbstractSet --------------- ---------------- SortedSet
+        //               ---------------- AbstractSet -------------------------------- SortedSet
         //                                     |                                           |
         //                                     |                                           |
-        //               --------------------------------------------                      |
+        //               --------------------------------------------                 NavigableSet
         //              |                      |                     |                     |
         //              |                      |                     |                     |
-        //           EnumSet                   |                  HashSet -----------------|
-        //                                     |                                           |
-        //                                     |                                           |
-        //                                  TreeSet --------------------------------- NavigableSet
+        //           EnumSet                HashSet                   ----------------- TreeSet
     }
 
     public static void startTest(String test) {
