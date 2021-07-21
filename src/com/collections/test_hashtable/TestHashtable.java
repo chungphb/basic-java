@@ -7,6 +7,8 @@ import java.util.Map;
 public class TestHashtable {
     public static void main(String[] args) {
         { // Test Hashtable<K, V>
+            startTest("TEST HASHTABLE");
+
             Hashtable<Integer, String> hashtable = new Hashtable<>();
 
             // put()
@@ -56,7 +58,16 @@ public class TestHashtable {
 
             // isEmpty()
             System.out.println("Is the hashtable empty: " + hashtable.isEmpty());
+
+            endTest();
         }
+        // Note:
+        // 1. Hashtable is similar to HashMap, but it is synchronized.
+        // 2. While HashMap doesn't provide any Enumeration, Hashtable provides not fail-fast Enumeration.
+        // 3. Hashtable is essentially an array of buckets which stores key/value pairs in them. It used the hashCode()
+        // method to determine which bucket the key/value pair belongs. When two unequal Objects have the same hashcode,
+        // it is called a collision. To resolve collisions, hashtable uses an array of lists. The pairs mapped to a
+        // bucket are stored in a list while the list reference is stored in the bucket.
     }
 
     public static void startTest(String test) {
