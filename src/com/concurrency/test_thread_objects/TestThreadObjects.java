@@ -1,4 +1,4 @@
-package com.concurrency;
+package com.concurrency.test_thread_objects;
 
 class SampleRunnable implements Runnable {
     @Override

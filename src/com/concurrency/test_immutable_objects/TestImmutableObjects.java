@@ -1,4 +1,4 @@
-package com.concurrency;
+package com.concurrency.test_immutable_objects;
 
 class SynchronizedRGB {
     private int red;

@@ -1,4 +1,4 @@
-package com.concurrency;
+package com.concurrency.test_synchronization;
 
 import java.util.ArrayList;
 import java.util.concurrent.CopyOnWriteArrayList;

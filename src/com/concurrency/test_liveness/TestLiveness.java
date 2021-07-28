@@ -1,4 +1,4 @@
-package com.concurrency;
+package com.concurrency.test_liveness;
 
 class Lover {
     private final String name;

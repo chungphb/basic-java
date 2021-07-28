@@ -1,4 +1,4 @@
-package com.concurrency;
+package com.concurrency.test_guarded_blocks;
 
 import java.util.Random;
 
