@@ -56,7 +56,7 @@ public class TestIOStreams {
             FileOutputStream out = null;
             try {
                 in = new FileInputStream("resources/input.txt");
-                out = new FileOutputStream("resources/output1.txt");
+                out = new FileOutputStream("out/output1.txt");
                 int c;
                 while ((c = in.read()) != -1) {
                     out.write(c);
@@ -79,7 +79,7 @@ public class TestIOStreams {
             FileWriter out = null;
             try {
                 in = new FileReader("resources/input.txt");
-                out = new FileWriter("resources/output2.txt");
+                out = new FileWriter("out/output2.txt");
                 int c;
                 while ((c = in.read()) != -1) {
                     out.write(c);
@@ -102,7 +102,7 @@ public class TestIOStreams {
             PrintWriter out = null;
             try {
                 in = new BufferedReader(new FileReader("resources/input.txt"));
-                out = new PrintWriter(new FileWriter("resources/output3.txt"));
+                out = new PrintWriter(new FileWriter("out/output3.txt"));
                 String l;
                 while ((l = in.readLine()) != null) {
                     out.println(l);
@@ -156,7 +156,7 @@ public class TestIOStreams {
         { // Data Streams
             startTest("TEST DATA STREAMS");
 
-            final String dataFile = "resources/data.txt";
+            final String dataFile = "out/data.txt";
             final double[] prices = {3.99, 11.99, 12.99, 24.99};
             final int[] units = {25, 13, 12, 4};
             final String[] descs = {"Picture", "Mug", "T-shirt", "Book"};
@@ -192,7 +192,7 @@ public class TestIOStreams {
         { // Object Streams
             startTest("TEST OBJECT STREAMS");
 
-            final String dataFile = "resources/data.txt";
+            final String dataFile = "out/data.txt";
             SimpleDateFormat format = new SimpleDateFormat("yyyy MMM dd HH:mm:ss");
             final Calendar today = new GregorianCalendar(2021, Calendar.AUGUST, 9, 9, 30, 0);
             final BigDecimal[] prices = {new BigDecimal("3.99"), new BigDecimal("11.99"), new BigDecimal("12.99"), new BigDecimal("24.99")};
