@@ -1,8 +1,8 @@
 package com.algorithms;
 
-import java.util.Arrays;
-
 // Description: Given an unsorted integer array, find a pair with the given sum in it.
+
+import java.util.Arrays;
 
 public class TwoSum extends TestBase {
     public static void main(String[] args) {
